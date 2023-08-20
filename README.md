@@ -16,4 +16,3 @@ Create and activate a virtual Python environment and run the following to setup 
 make install_dev
 ```
 
-You can find more details in the Makefile located in the project directory.

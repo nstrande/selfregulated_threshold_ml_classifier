@@ -26,7 +26,6 @@ env/
 *.sublime-*
 
 # Project-specific files
-config.py
 secrets.py
 
 # Logs and databases
@@ -42,4 +41,8 @@ __pycache__/
 # Data
 data/*.parquet
 
+# MLFlow
 mlruns/*
+
+# Div
+noter.txt

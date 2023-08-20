@@ -14,10 +14,6 @@ from src.utils import log_metric_to_mlflow, set_seed, add_predictions_to_datafra
 from src.plotting import plot_confusion_matrix, plot_precision_recall_curve
 
 
-# train_data_inpath = "data/train_data.parquet"
-# model_config_module = "src.models.model_configs.selfregulated_threshold_random_forest"
-
-
 def main(
     train_data_inpath: str, test_data_inpath: str, model_config_module: str
 ) -> None:
