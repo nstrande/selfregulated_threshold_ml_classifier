@@ -81,3 +81,4 @@ def plot_precision_recall_curve(
     plt.legend(["Precision", "Recall"])
 
     return plt.gcf()
+
